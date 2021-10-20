@@ -15,6 +15,7 @@ import Paper from '@mui/material/Paper';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import Card from '@mui/material/Card';
+import { flexbox } from '@mui/system';
 
 function createData(name, calories, fat, carbs, protein, price) {
   return {
@@ -131,7 +132,8 @@ const rows = [
 
 export default function CollapsibleTable() {
   return (
-    <Card style={{padding: "10px",}} sx={{ minWidth: 275 }}>
+  <div style={{display:"flex", justifyContent: "center",}}>
+    <Card style={{padding: "40px", width: "50%", backgroundColor: "rgb(30 30 30)"}} sx={{ minWidth: 275 }}>
     <TableContainer component={Paper}>
       <Table aria-label="collapsible table">
         <TableHead>
@@ -153,5 +155,6 @@ export default function CollapsibleTable() {
         </Table>
       </TableContainer>
     </Card>
+  </div> 
   );
 }

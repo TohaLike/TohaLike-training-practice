@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 function Navigation() {
   return (
-    <AppBar position="static">
+    <AppBar position="static" style={{marginBottom: "30px"}}>
         <Toolbar>
           <IconButton
             size="large"
