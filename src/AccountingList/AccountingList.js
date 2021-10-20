@@ -137,6 +137,7 @@ export default function CollapsibleTable() {
         <TableHead>
           <TableRow>
             <TableCell />
+            
             <TableCell>Dessert (100g serving)</TableCell>
             <TableCell align="right">Calories</TableCell>
             <TableCell align="right">Fat&nbsp;(g)</TableCell>
