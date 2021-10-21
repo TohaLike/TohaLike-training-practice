@@ -9,7 +9,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 function Navigation() {
   return (
-    <AppBar position="static" style={{marginBottom: "30px"}}>
+  <div style={{textAlign: "left"}}>
+    <AppBar position="static" style={{marginBottom: "30px", backgroundColor: "rgb(30 30 30)"}}>
         <Toolbar>
           <IconButton
             size="large"
@@ -21,11 +22,12 @@ function Navigation() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            RedFly
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
+    </div>
   );
 }
 
