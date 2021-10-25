@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from './Navigation/Navigation';
 import AccountingList from './AccountingList/AccountingList';
 import TaskList from './TaskList/TaskList';
+import TextField from './TextField/TextField';
 
 // В <div className="App"> импортируются модули
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navigation/>
       <AccountingList/>
       <TaskList/>
+      <TextField/>
     </div>
   );
 }

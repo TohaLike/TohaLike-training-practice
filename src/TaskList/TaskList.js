@@ -5,10 +5,11 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListSubheader from '@mui/material/ListSubheader';
 
+
 function PinnedSubheaderList() {
   return (
-   <div style={{}}>
-    <List style={{margin: "30px",}}
+   <div style={{display: "flex", justifyContent: "flex-end"}}>
+    <List style={{margin: "30px", alignItems: "flex-end", }}
       sx={{
         width: '100%',
         maxWidth: 360,

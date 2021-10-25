@@ -133,7 +133,7 @@ const rows = [
 export default function CollapsibleTable() {
   return (
   <div style={{display:"flex", justifyContent: "start",}}>
-    <Card style={{padding: "40px", width: "30%", backgroundColor: "rgb(30 30 30)", marginLeft: "30px",}} sx={{ minWidth: 275 }}>
+    <Card style={{padding: "30px", width: "40%", backgroundColor: "rgb(30 30 30)", marginLeft: "30px",}} sx={{ minWidth: 275 }}>
     <TableContainer component={Paper}>
       <Table aria-label="collapsible table">
         <TableHead>
